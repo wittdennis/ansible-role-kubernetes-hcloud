@@ -1,2 +1,6 @@
 ---
-# handlers file for role_remplate
+- name: Restart kubelet
+  listen: restart_kubelet
+  ansible.builtin.service:
+    name: kubelet
+    state: restarted

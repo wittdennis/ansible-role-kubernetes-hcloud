@@ -12,5 +12,8 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
+      - name: install ansible requirements
+        run: |
+          ansible-galaxy install -r requirements.yml --force
       - name: lint
         uses: ansible/ansible-lint@v24.6.1
