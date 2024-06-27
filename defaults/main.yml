@@ -1,2 +1,7 @@
 ---
-# defaults file for role_remplate
+kubernetes_hcloud_controller_manager_chart_version: v1.19.0 # renovate: datasource=github-releases depName=hetznercloud/hcloud-cloud-controller-manager versioning=semver
+kubernetes_hcloud_csi_driver_chart_version: v2.7.0 # renovate: datasource=github-releases depName=hetznercloud/csi-driver versioning=semver
+kubernetes_hcloud_monitoring_enabled: true
+kubernetes_hcloud_networking_enabled: true
+kubernetes_hcloud_volume_default_location: nbg1
+kubernetes_hcloud_cloud_provider_kubelet_extra_args_through_systemd_unit: false
