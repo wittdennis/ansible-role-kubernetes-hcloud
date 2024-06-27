@@ -8,6 +8,17 @@ Installs and manages the [Hetzner cloud-controller-manager](https://github.com/h
 
 ## Role Variables
 
+Required Variables:
+
+```yaml
+kubernetes_hcloud_token: "****"
+kubernetes_hcloud_cluster_pod_cidr: "172.0.0.0/16"
+
+kubernetes_hcloud_network_name: "network-name" # Only needed if kubernetes_hcloud_networking_enabled is true
+```
+
+Defaults:
+
 ```yaml
 kubernetes_hcloud_controller_manager_chart_version: v1.19.0 # Version of the cloud-controller-manager to use
 kubernetes_hcloud_csi_driver_chart_version: v2.7.0 # Version of the csi driver to user
@@ -27,7 +38,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: servers
       roles:
-         - { role: wittdennis.kubernetes_hcloud }
+         - { role: wittdennis.kubernetes_hcloud, kubernetes_hcloud_token: "*****", kubernetes_hcloud_cluster_pod_cidr: "172.0.0.0/16" }
 
 ## License
 
