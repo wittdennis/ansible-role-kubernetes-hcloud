@@ -80,6 +80,11 @@
         token: "{{ kubernetes_hcloud_token | b64encode }}"
         network: "{{ kubernetes_hcloud_network_name | b64encode }}"
 
+- name: Set proper chart version
+  ansible.builtin.set_fact:
+    cloud_controller_version: "{{ kubernetes_hcloud_controller_manager_chart_version | split('v') }}"
+    csi_driver_version: "{{ kubernetes_hcloud_csi_driver_chart_version | split('v') }}"
+
 - name: Add hcloud helm repo
   kubernetes.core.helm_repository:
     name: hcloud
@@ -90,7 +95,7 @@
     name: hccm
     chart_ref: hcloud/hcloud-cloud-controller-manager
     release_namespace: kube-system
-    chart_version: "{{ kubernetes_hcloud_controller_manager_chart_version }}"
+    chart_version: "{{ cloud_controller_version.1 }}"
     values: "{{ lookup('ansible.builtin.template', 'hcloud-cloud-controller-manager-values.yaml.j2') | from_yaml }}"
 
 - name: Deploy hcloud csi-driver
@@ -98,5 +103,5 @@
     name: hcloud-csi
     chart_ref: hcloud/hcloud-csi
     release_namespace: kube-system
-    chart_version: "{{ kubernetes_hcloud_csi_driver_chart_version }}"
+    chart_version: "{{ csi_driver_version.1 }}"
     values: "{{ lookup('ansible.builtin.template', 'hcloud-csi-driver-values.yaml.j2') | from_yaml }}"
