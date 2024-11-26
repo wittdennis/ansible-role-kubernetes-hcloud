@@ -1,5 +1,5 @@
 ---
-kubernetes_hcloud_controller_manager_chart_version: v1.20.0 # renovate: datasource=github-releases depName=hetznercloud/hcloud-cloud-controller-manager versioning=semver
+kubernetes_hcloud_controller_manager_chart_version: v1.21.0 # renovate: datasource=github-releases depName=hetznercloud/hcloud-cloud-controller-manager versioning=semver
 kubernetes_hcloud_csi_driver_chart_version: v2.11.0 # renovate: datasource=github-releases depName=hetznercloud/csi-driver versioning=semver
 kubernetes_hcloud_monitoring_enabled: true
 kubernetes_hcloud_networking_enabled: true
