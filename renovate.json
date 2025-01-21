@@ -1,6 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "local>wittdennis/renovate-config"
+  "extends": ["local>wittdennis/renovate-config"],
+  "packageRules": [
+    {
+      "matchDepNames": [
+        "hetznercloud/csi-driver",
+        "hetznercloud/hcloud-cloud-controller-manager"
+      ],
+      "semanticCommitType": "fix"
+    }
   ]
 }
