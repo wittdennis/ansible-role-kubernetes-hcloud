@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.17](https://github.com/wittdennis/ansible-role-kubernetes-hcloud/compare/54ef69031c068ada5ebfcf6c80a44c1996173278..2.0.17) - 2025-11-26
+#### Bug Fixes
+- (**deps**) update dependency hetznercloud/csi-driver to v2.18.2 - ([54ef690](https://github.com/wittdennis/ansible-role-kubernetes-hcloud/commit/54ef69031c068ada5ebfcf6c80a44c1996173278)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.16](https://github.com/wittdennis/ansible-role-kubernetes-hcloud/compare/0a94287a7f899976ef3cbdeee618dddc7f81463b..2.0.16) - 2025-11-25
 #### Bug Fixes
 - repo cache update with helm v4 - ([0a94287](https://github.com/wittdennis/ansible-role-kubernetes-hcloud/commit/0a94287a7f899976ef3cbdeee618dddc7f81463b)) - Dennis Witt
