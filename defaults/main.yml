@@ -1,6 +1,6 @@
 ---
 kubernetes_hcloud_controller_manager_chart_version: v1.30.0 # renovate: datasource=github-releases depName=hetznercloud/hcloud-cloud-controller-manager versioning=semver
-kubernetes_hcloud_csi_driver_chart_version: v2.19.0 # renovate: datasource=github-releases depName=hetznercloud/csi-driver versioning=semver
+kubernetes_hcloud_csi_driver_chart_version: v2.19.1 # renovate: datasource=github-releases depName=hetznercloud/csi-driver versioning=semver
 kubernetes_hcloud_monitoring_enabled: true
 kubernetes_hcloud_networking_enabled: true
 kubernetes_hcloud_volume_default_location: nbg1
