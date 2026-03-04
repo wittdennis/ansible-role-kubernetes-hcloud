@@ -91,7 +91,7 @@
     name: hcloud
     repo_url: https://charts.hetzner.cloud
 
-- name: Deploy hcloud cloud controler manager
+- name: Deploy hcloud cloud controller manager
   kubernetes.core.helm:
     name: hccm
     chart_ref: hcloud/hcloud-cloud-controller-manager
@@ -107,3 +107,4 @@
     release_namespace: kube-system
     chart_version: "{{ csi_driver_version.1 }}"
     values: "{{ lookup('ansible.builtin.template', 'hcloud-csi-driver-values.yaml.j2') | from_yaml }}"
+    update_repo_cache: true
