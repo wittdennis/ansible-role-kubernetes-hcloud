@@ -2,6 +2,18 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.34](https://github.com/wittdennis/ansible-role-kubernetes-hcloud/compare/f32874b0b8432695e55ad2797c7114eba154a63d..2.0.34) - 2026-07-17
+#### Bug Fixes
+- (**deps**) update dependency hetznercloud/hcloud-cloud-controller-manager to v1.34.0 - ([bf11fe4](https://github.com/wittdennis/ansible-role-kubernetes-hcloud/commit/bf11fe4ac5cecef59abec494b9dec3af4721bb1c)) - wittdennis-renovate[bot]
+#### Continuous Integration
+- (**deps**) update wittdennis/pipelines action to v2.0.37 - ([620bcb1](https://github.com/wittdennis/ansible-role-kubernetes-hcloud/commit/620bcb1646914aa999573e53a29443270e2279c6)) - wittdennis-renovate[bot]
+#### Miscellaneous Chores
+- (**deps**) update wittdennis/pipelines action to v2.0.36 - ([fc68a35](https://github.com/wittdennis/ansible-role-kubernetes-hcloud/commit/fc68a35a4cf9627bd828d2c92202e11dbeba440c)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.35 - ([1c02586](https://github.com/wittdennis/ansible-role-kubernetes-hcloud/commit/1c02586368d9f6573708c57adbb9838defa1b6d7)) - wittdennis-renovate[bot]
+- (**deps**) update dependency kubernetes.core to v6.5.0 - ([f32874b](https://github.com/wittdennis/ansible-role-kubernetes-hcloud/commit/f32874b0b8432695e55ad2797c7114eba154a63d)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.33](https://github.com/wittdennis/ansible-role-kubernetes-hcloud/compare/d5edc861c08b5f35430cde2ed54b4f97e850cf14..2.0.33) - 2026-07-08
 #### Bug Fixes
 - (**deps**) update dependency hetznercloud/csi-driver to v2.22.0 - ([0356c96](https://github.com/wittdennis/ansible-role-kubernetes-hcloud/commit/0356c960c9aefed7947bbb1aa237cb4cd28a8006)) - wittdennis-renovate[bot]
