@@ -2,6 +2,20 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.40](https://github.com/wittdennis/ansible-role-kubernetes-hcloud/compare/6800f8888c552ada39edc3a5c1ec38d281bcca67..2.0.40) - 2026-10-01
+#### Bug Fixes
+- (**deps**) update dependency hetznercloud/hcloud-cloud-controller-manager to v1.38.0 - ([d5741af](https://github.com/wittdennis/ansible-role-kubernetes-hcloud/commit/d5741aff9496d5ab185d4a27b105a34c9941c217)) - wittdennis-renovate[bot]
+#### Continuous Integration
+- (**deps**) update wittdennis/pipelines action to v2.0.60 - ([1d0fd6e](https://github.com/wittdennis/ansible-role-kubernetes-hcloud/commit/1d0fd6e39040550a72ec44e808a9be984374ab7c)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.59 - ([5fba38e](https://github.com/wittdennis/ansible-role-kubernetes-hcloud/commit/5fba38e05751d2a0bf044f789b39c8ee0fd92143)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.57 - ([96750e0](https://github.com/wittdennis/ansible-role-kubernetes-hcloud/commit/96750e0db49a7317fa39358641b0296cfa50637d)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.56 - ([05d689b](https://github.com/wittdennis/ansible-role-kubernetes-hcloud/commit/05d689bdf8a79e88e5c29683c91bd6f3dbc1edfc)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.54 - ([6800f88](https://github.com/wittdennis/ansible-role-kubernetes-hcloud/commit/6800f8888c552ada39edc3a5c1ec38d281bcca67)) - wittdennis-renovate[bot]
+#### Miscellaneous Chores
+- (**deps**) update dependency kubernetes.core to v6.6.0 - ([4977946](https://github.com/wittdennis/ansible-role-kubernetes-hcloud/commit/49779466003330a732cf1cba1679d5222816d3a1)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.39](https://github.com/wittdennis/ansible-role-kubernetes-hcloud/compare/1b0304f31b3b3ef34878dee25c082fa7bd38f9aa..2.0.39) - 2026-09-11
 #### Bug Fixes
 - (**deps**) update dependency hetznercloud/hcloud-cloud-controller-manager to v1.37.0 - ([5f5e891](https://github.com/wittdennis/ansible-role-kubernetes-hcloud/commit/5f5e891e989ee77841a9c6ff265e01325ab8a729)) - wittdennis-renovate[bot]
